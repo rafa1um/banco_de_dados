@@ -1,2 +1,2 @@
 # bd
-Repositório referente a matéria Banco de Dados - UEL 2019
+Repositório referente a matéria SQL de Banco de Dados - UEL 2019
