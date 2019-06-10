@@ -89,6 +89,7 @@ CREATE TABLE res_trch (
     cod_reserva SMALLINT NOT NULL,
 	cod_voo         SMALLINT NOT NULL,
     cod_aeroporto   SMALLINT NOT NULL,
+    classe_trecho VARCHAR (20) DEFAULT 'economica' NOT NULL,
 
     CONSTRAINT res_trch_pk PRIMARY KEY (cod_assento, cod_trecho, cod_reserva),
     CONSTRAINT trecho_fk FOREIGN KEY (cod_trecho, cod_aeroporto, cod_voo) REFERENCES trecho,
